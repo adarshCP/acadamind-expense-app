@@ -1,0 +1,51 @@
+
+.expense-container{
+   width: 100%;
+   margin: 20px auto;
+   background-color: #4b4b4b;
+    border-radius: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.expense-title{
+   flex:5;
+    text-align: center;
+}
+.expense-date{
+    border: 1px solid black;
+    margin:10px;
+    padding-top: 10px;
+    flex: 1;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+    
+    
+}
+.expense-date:hover{
+    transform: scale(1.1);
+}
+
+.expense-price{
+    border-radius: 20px;
+    border: solid 1px white;
+    background-color: blueviolet;
+    margin-right: 10px;
+    padding: 0.2rem 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+  
+   
+    
+  
+    
+   
+}
+
+.expense-date__day{
+    font-size: 2rem;
+    font-weight: bold;
+}
